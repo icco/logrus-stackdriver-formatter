@@ -1,0 +1,4 @@
+steps:
+- name: 'gcr.io/cloud-builders/go'
+  args: ['build', '.']
+  env: ['PROJECT_ROOT=logrus-stackdriver-formatter']
