@@ -1,4 +1,4 @@
-module github.com/icco/logrus-stackdriver-formatter
+module github.com/charleskorn/logrus-stackdriver-formatter
 
 require (
 	github.com/TV4/logrus-stackdriver-formatter v0.1.0
