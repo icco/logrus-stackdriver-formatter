@@ -78,7 +78,7 @@ type Entry struct {
 	Timestamp      string          `json:"timestamp,omitempty"`
 	Severity       severity        `json:"severity,omitempty"`
 	HTTPRequest    *HTTPRequest    `json:"httpRequest,omitempty"`
-	Trace          string          `json:"trace,omitempty"`
+	Trace          string          `json:"logging.googleapis.com/trace,omitempty"`
 	ServiceContext *ServiceContext `json:"serviceContext,omitempty"`
 	Message        string          `json:"message,omitempty"`
 	Context        *Context        `json:"context,omitempty"`
